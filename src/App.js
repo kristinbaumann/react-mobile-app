@@ -20,6 +20,9 @@ class App extends Component {
           Swipeable View with tabs:
         </p>
         <SwipeViewTabs />
+        <p className="App-intro">
+          Test Paragraph
+        </p>
       </div>
     );
   }
