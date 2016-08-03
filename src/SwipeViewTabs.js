@@ -1,5 +1,3 @@
-// @flow weak
-
 import React, {Component} from 'react';
 import Tabs from 'material-ui/Tabs/Tabs';
 import Tab from 'material-ui/Tabs/Tab';
@@ -13,7 +11,7 @@ const styles = {
   },
   slide: {
     padding: 15,
-    minHeight: 100,
+    minHeight: 50,
     color: '#fff',
   },
   slide1: {
@@ -28,7 +26,7 @@ const styles = {
 };
 
 
-class Demo2 extends Component {
+class SwipeViewTabs extends Component {
   state = {
     index: 0,
   };
@@ -79,4 +77,4 @@ class Demo2 extends Component {
   }
 }
 
-export default Demo2;
+export default SwipeViewTabs;

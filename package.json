@@ -10,6 +10,7 @@
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-motion": "^0.4.4",
+    "react-sidebar": "^2.2.1",
     "react-swipeable-views": "^0.6.5",
     "react-tap-event-plugin": "^1.0.0"
   },
