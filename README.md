@@ -1,7 +1,9 @@
 react-app-mobile
 =================
 
-Prototype simulating native app-like behaviour, written in React. 
+Prototype simulating native app-like behaviour, written in React.
+
+![Screenshot react app mobile](/react-mobile-app.png)
 
 Implemented behaviour:
 * off-canvas menu, open and close by swipe motion: react-sidebar component (https://github.com/balloob/react-sidebar)

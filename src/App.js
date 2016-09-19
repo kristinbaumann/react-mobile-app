@@ -44,7 +44,7 @@ class App extends Component {
     const contentHeader = (
     <span>
        <a onClick={this.menuButtonClick} href="#" style={styles.contentHeaderMenuLink}>=</a>
-      <span> React Sidebar</span>
+      <span> React Demo</span>
     </span>);
 
     return (
@@ -65,13 +65,11 @@ class App extends Component {
             Swipeable View with tabs:
           </p>
           <SwipeViewTabs />
-          <p className="App-intro">
-            Test Paragraph
-          </p>
+          <p className="App-intro"></p>
         </div>
         </MaterialTitlePanel>
       </Sidebar>
-    
+
     );
   }
 }
